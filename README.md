@@ -26,6 +26,7 @@ Installation and start on TypeScript:
 git clone https://github.com/dev2alert/node-samp-starter.git my-server
 cd ./my-server
 npm i
+npm run compile
 npm start
 ```
 Installation and start on JavaScript:
