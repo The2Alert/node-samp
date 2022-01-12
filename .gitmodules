@@ -1,0 +1,30 @@
+[submodule "repositories/javascript-starter"]
+	path = repositories/javascript-starter
+	url = https://github.com/dev2alert/node-samp-javascript-starter
+[submodule "repositories/starter"]
+	path = repositories/starter
+	url = https://github.com/dev2alert/node-samp-starter
+[submodule "repositories/core"]
+	path = repositories/core
+	url = https://github.com/dev2alert/node-samp-core
+[submodule "repositories/plugin"]
+	path = repositories/plugin
+	url = https://github.com/dev2alert/node-samp-plugin
+[submodule "repositories/decorators"]
+	path = repositories/decorators
+	url = https://github.com/dev2alert/node-samp-decorators
+[submodule "repositories/amx"]
+	path = repositories/amx
+	url = https://github.com/dev2alert/node-samp-amx
+[submodule "repositories/cli"]
+	path = repositories/cli
+	url = https://github.com/dev2alert/node-samp-cli
+[submodule "repositories/ctx-api"]
+	path = repositories/ctx-api
+	url = https://github.com/dev2alert/node-ctx-api
+[submodule "repositories/ctx-api-decorators"]
+	path = repositories/ctx-api-decorators
+	url = https://github.com/dev2alert/node-ctx-api-decorators
+[submodule "repositories/ctx-api-eventloop"]
+	path = repositories/ctx-api-eventloop
+	url = https://github.com/dev2alert/node-ctx-api-eventloop
