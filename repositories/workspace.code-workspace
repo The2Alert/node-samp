@@ -1,0 +1,44 @@
+{
+    "folders": [
+        {
+            "name": "amx",
+            "path": "./amx"
+        },
+        {
+            "name": "cli",
+            "path": "./cli"
+        },
+        {
+            "name": "core",
+            "path": "./core"
+        },
+        {
+            "name": "decorators",
+            "path": "./decorators"
+        },
+        {
+            "name": "plugin",
+            "path": "./plugin"
+        },
+        {
+            "name": "javascript-starter",
+            "path": "./javascript-starter"
+        },
+        {
+            "name": "starter",
+            "path": "./starter"
+        },
+        {
+            "name": "ctx-api",
+            "path": "./ctx-api"
+        },
+        {
+            "name": "ctx-api-decorators",
+            "path": "./ctx-api-decorators"
+        },
+        {
+            "name": "ctx-api-eventloop",
+            "path": "./ctx-api-eventloop"
+        }
+    ]
+}
