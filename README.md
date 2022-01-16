@@ -41,6 +41,64 @@ Start in development mode:
 npm run dev
 ```
 
+## Example
+Using Context API and TypeScript:
+```typescript
+import {Group, Keys, Player, Position, Vehicle, Weapons} from "@sa-mp/core";
+import {Alt, Command, Context, Key, Param, ParamInt} from "@sa-mp/decorators";
+
+@Context()
+export class ModePlayer extends Player.Context {
+    public readonly vehicles: Group<Vehicle> = new Group;
+
+    public onConnect(): boolean {
+        this.send(`Hello, ${this}!`);
+        return true;
+    }
+
+    public onRequestClass(): void {
+        this.spawnInfo({x: 1906.2207, y: -2429.4124, z: 13.5391, team: 0, skin: 68, rotation: 0, weapons: [{type: Weapons.AK47, ammo: 89}]});
+        this.spawn();
+    }
+
+    public onDisconnect(): void {
+        this.vehicles.destroy();
+    }
+
+    @Key(Keys.YES)
+    public handleKeyYes(): void {
+        this.spawn();
+    }
+
+    @Key(Keys.NO)
+    public handleKeyNo(): void {
+        this.vehicles.destroy();
+    }
+
+    @Command("spawn")
+    @Alt("s")
+    public spawnPlayer(): void {
+        this.spawn();
+    }
+
+    @Command("pos")
+    public setPosition(@Param() x: number, @Param() y: number, @Param() z: number): void {
+        this.pos = {x, y, z};
+    }
+
+    @Command("veh")
+    public createVehicle(@ParamInt() model: number, @ParamInt() color1: number, @ParamInt() color2: number): void {
+        const {x, y, z}: Position = this.pos;
+        const rotation: number = this.angle;
+        const vehicle: Vehicle = Vehicle.create({x, y, z, model, colors: [color1, color2], rotation});
+        if(this.isInAnyVehicle())
+            this.vehicle.destroy();
+        this.put(vehicle);
+        this.vehicles.push(vehicle);
+    }
+}
+```
+
 ## Credits
 <ul>
     <li>
