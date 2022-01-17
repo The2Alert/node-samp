@@ -15,6 +15,11 @@
     <a href="https://github.com/dev2alert/node-samp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dev2alert/node-samp" /></a>
 </p>
 
+## Warning
+<p>
+    <b>Linux support will be restored soon!</b>
+</p>
+
 ## Documentation
 <p>
     Documentation is <a href="https://github.com/dev2alert/node-samp/wiki">here</a>.
