@@ -118,6 +118,8 @@ export class ModePlayer extends Player.Context {
 <li>Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!</li>
 <li>Write documentation.</li>
 <li>Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> support by creating the @sa-mp/streamer package.</li>
+<li>Add support for <a href="https://jestjs.io/">Jest</a> testing by creating @sa-mp/testing package.</li>
+<li>Add <a href="https://typeorm.io/">Typeorm</a> support by creating the @sa-mp/typeorm package.</li>
 <li>Add <a href="https://github.com/CyberMor/sampvoice">SAMPVOICE</a> support by creating the @sa-mp/voice package.</li>
 <li>Add <a href="https://github.com/ZOTTCE/samp-cef">SAMP CEF</a> support by creating the @sa-mp/cef package.</li>
 <li>Create SA-MP Extension by creating the @sa-mp/ex package.</li>
