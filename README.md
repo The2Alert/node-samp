@@ -10,14 +10,9 @@
 <p align="center">
     <a href="https://github.com/dev2alert/node-samp/releases/"><img src="https://img.shields.io/github/v/release/dev2alert/node-samp" /></a>
     <a href="https://github.com/dev2alert/node-samp/releases/"><img src="https://img.shields.io/github/downloads/dev2alert/node-samp/total" /></a>
-    <a href="https://nodejs.org/"><img src="https://img.shields.io/static/v1?label=node&message=16.13.0&color=green" /></a>
+    <a href="https://nodejs.org/"><img src="https://img.shields.io/static/v1?label=node&message=16.13.2&color=green" /></a>
     <a href="https://github.com/dev2alert/node-samp"><img src="https://img.shields.io/github/stars/dev2alert/node-samp?style=social" /></a>
     <a href="https://github.com/dev2alert/node-samp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dev2alert/node-samp" /></a>
-</p>
-
-## Warning
-<p>
-    <b>Linux support will be restored soon!</b>
 </p>
 
 ## Documentation
@@ -115,7 +110,7 @@ export class ModePlayer extends Player.Context {
 </ul>
 
 ## Plans
-<li>Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!</li>
+✅ Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!
 <li>Write documentation.</li>
 <li>Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> support by creating the @sa-mp/streamer package.</li>
 <li>Add support for <a href="https://jestjs.io/">Jest</a> testing by creating @sa-mp/testing package.</li>
