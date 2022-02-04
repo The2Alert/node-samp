@@ -110,7 +110,7 @@ export class ModePlayer extends Player.Context {
 </ul>
 
 ## Plans
-✅ Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!
+✅ Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!<br />
 ✅ Write documentation.
 <li>Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> support by creating the @sa-mp/streamer package.</li>
 <li>Add support for <a href="https://jestjs.io/">Jest</a> testing by creating @sa-mp/testing package.</li>
