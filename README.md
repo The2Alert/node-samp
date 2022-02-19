@@ -104,7 +104,7 @@ export class ModePlayer extends Player.Context {
 - [x] Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!<br />
 - [x] Write documentation.
 - [x] Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> plugin support.
-- [ ] Add <a href="https://github.com/Zeex/samp-plugin-crashdetect">CrashDetect</a> plugin support.
+- [x] Add <a href="https://github.com/Zeex/samp-plugin-crashdetect">CrashDetect</a> plugin support.
 - [ ] Add <a href="https://github.com/ziggi/FCNPC">FCNPC</a> plugin support.
 - [ ] Add <a href="https://jestjs.io">Jest</a> testing support.
 - [ ] Add <a href="https://typeorm.io">Typeorm</a> support.
@@ -127,6 +127,18 @@ export class ModePlayer extends Player.Context {
         <td>
             <a href="https://github.com/samp-incognito/samp-streamer-plugin">
                 <img src="https://github-readme-stats.vercel.app/api/pin/?username=samp-incognito&repo=samp-streamer-plugin" />
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/dev2alert/node-samp-crashdetect">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev2alert&repo=node-samp-crashdetect" /> 
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/Zeex/samp-plugin-crashdetect">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Zeex&repo=samp-plugin-crashdetect" />
             </a>
         </td>
     </tr>
