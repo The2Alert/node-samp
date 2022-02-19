@@ -99,6 +99,39 @@ export class ModePlayer extends Player.Context {
 }
 ```
 
+## Todo list
+
+- [x] Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!<br />
+- [x] Write documentation.
+- [x] Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> plugin support.
+- [ ] Add <a href="https://github.com/Zeex/samp-plugin-crashdetect">CrashDetect</a> plugin support.
+- [ ] Add <a href="https://github.com/ziggi/FCNPC">FCNPC</a> plugin support.
+- [ ] Add <a href="https://jestjs.io">Jest</a> testing support.
+- [ ] Add <a href="https://typeorm.io">Typeorm</a> support.
+- [ ] Add <a href="https://github.com/CyberMor/sampvoice">SAMPVOICE</a> plugin support.
+- [ ] Add <a href="https://github.com/ZOTTCE/samp-cef">SAMP CEF</a> plugin support.
+- [ ] Create SA-MP Extension.
+
+## Supported plugins
+<table align="center">
+    <tr>
+        <th>Package</th>
+        <th>Plugin</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/dev2alert/node-samp-streamer">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev2alert&repo=node-samp-streamer" /> 
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/samp-incognito/samp-streamer-plugin">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=samp-incognito&repo=samp-streamer-plugin" />
+            </a>
+        </td>
+    </tr>
+</table>
+
 ## Credits
 <ul>
     <li>
@@ -108,19 +141,6 @@ export class ModePlayer extends Player.Context {
         <a href="https://github.com/pkfln">pkfln</a> - invited to organization <a href="https://www.npmjs.com/org/sa-mp">@sa-mp</a> in <a href="https://www.npmjs.com/">npm</a>.
     </li>
 </ul>
-
-## Plans
-✅ Updating <a href="https://nodejs.org/en/">Node.js</a> up to version 16.13.2!<br />
-✅ Write documentation.
-<li>Add <a href="https://github.com/samp-incognito/samp-streamer-plugin">Streamer</a> support by creating the @sa-mp/streamer package.</li>
-<li>Add support for <a href="https://jestjs.io/">Jest</a> testing by creating @sa-mp/testing package.</li>
-<li>Add <a href="https://typeorm.io/">Typeorm</a> support by creating the @sa-mp/typeorm package.</li>
-<li>Add <a href="https://github.com/CyberMor/sampvoice">SAMPVOICE</a> support by creating the @sa-mp/voice package.</li>
-<li>Add <a href="https://github.com/ZOTTCE/samp-cef">SAMP CEF</a> support by creating the @sa-mp/cef package.</li>
-<li>Create SA-MP Extension by creating the @sa-mp/ex package.</li>
-<br />
-
-> For now, it will remain a secret what exactly will expand :)
 
 ## License
 <p>
