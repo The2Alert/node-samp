@@ -21,6 +21,12 @@
 </p>
 
 ## Getting started
+Preliminary requirements:
+<ul>
+    <li><a href="https://nodejs.org/en/download/">Node.js</a> >= <code>16.13.2</code></li>
+    <li><a href="https://www.npmjs.com/">npm</a> >= <code>8.1.2</code></li>
+</ul>
+
 Installation and start on TypeScript:
 ```
 git clone https://github.com/dev2alert/node-samp-starter.git my-server
@@ -39,6 +45,25 @@ npm start
 Start in development mode:
 ```
 npm run dev
+```
+
+## Getting Started with Docker
+Preliminary requirements:
+<ul>
+    <li><a href="https://www.gnu.org/software/make/">GNU Make</a> >= <code>3.81</code></li>
+    <li><a href="https://www.docker.com/">Docker</a> >= <code>20.10.12</code></li>
+</ul>
+
+Installation:
+```
+git clone https://github.com/dev2alert/node-samp-docker-starter.git my-server
+cd ./my-server
+npm i
+```
+Build and run:
+```
+make -B build
+make run
 ```
 
 ## Example
