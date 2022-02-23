@@ -4,9 +4,6 @@
 [submodule "repositories/starter"]
 	path = repositories/starter
 	url = https://github.com/dev2alert/node-samp-starter
-[submodule "repositories/docker-starter"]
-	path = repositories/docker-starter
-	url = https://github.com/dev2alert/node-samp-docker-starter
 [submodule "repositories/core"]
 	path = repositories/core
 	url = https://github.com/dev2alert/node-samp-core
@@ -31,3 +28,6 @@
 [submodule "repositories/ctx-api-eventloop"]
 	path = repositories/ctx-api-eventloop
 	url = https://github.com/dev2alert/node-ctx-api-eventloop
+[submodule "repositories/docker-starter"]
+	path = repositories/docker-starter
+	url = https://github.com/dev2alert/node-samp-docker-starter
