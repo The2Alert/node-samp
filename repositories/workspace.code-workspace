@@ -29,6 +29,10 @@
             "path": "./starter"
         },
         {
+            "name": "docker-starter",
+            "path": "./docker-starter"
+        },
+        {
             "name": "ctx-api",
             "path": "./ctx-api"
         },
