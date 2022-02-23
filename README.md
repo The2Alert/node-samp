@@ -62,6 +62,7 @@ npm i
 ```
 Build and run:
 ```
+npm run compile
 make -B build
 make run
 ```
